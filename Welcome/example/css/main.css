@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+
+    font-family: 'Arial', sans-serif;
+    background: url(../images/bg.jpeg) no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.MainText {
+  width: 486px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  font-family:'Poppins';
+  font-weight:bolder;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.SubText {
+  width: 342px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 206px;
+  left: 820px;
+  font-family: Poppins;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.Button {
+  width: 295px;
+  height: 67px;
+  background: rgba(10,1,164,1);
+  opacity: 1;
+  position: absolute;
+  top: 295px;
+  left: 835px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.Signup {
+  width: 252px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 310px;
+  left: 855px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.Login {
+  width: 610px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 373px;
+  left: 670px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
