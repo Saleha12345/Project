@@ -1,0 +1,90 @@
+
+* {margin: 0; padding: 0}
+    
+    body{
+        font-family: 'Arial', sans-serif;
+        background: url(../img/bg.jpeg) no-repeat;
+        background-size: 100%;
+        
+        
+    }
+    .codehim-form{
+        position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 320px;
+	height: 200px;
+	padding: 80px 40px;
+	background: rgba(255, 255, 255, 0.6);
+            
+    }
+    .cm-input{
+        display: block;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%; 
+        margin: 14px auto;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        
+        
+    }
+    .cm-input:focus{
+        outline: 0;
+        border-color: #f9cb81;
+        
+    }
+    .cm-input:invalid{
+        border-color: #e41b17;
+        
+    }
+    .gr-bg{
+        background: rgb(93, 82, 245);
+
+        
+    }
+
+    .btn-login{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 0;
+        color: #fff;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    .btn-login:focus{
+        outline: 0;
+    }
+    
+    .btn-login:hover{
+        opacity: 0.8;
+        transition: .3s;
+    }
+    
+    .form-title{
+        padding: 12px;
+        text-align: center;
+        position: relative;
+        
+        
+    }
+    .form-title h2{
+        color: #5c86e1;
+    }
+    .form-title .user-icon{
+        position: absolute;
+        
+        font-size: 42px;
+        color: #fff;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        border-radius: 45px;
+        top: -60px;
+        left: -45px;
+        
+    }
