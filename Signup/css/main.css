@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(../images/bg.jpeg) no-repeat;
+    background-size: 100%;
+    
+    
+  font-size: 14px;
+}
+.SignupForm {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 500px;
+	padding: 80px 40px;
+	background: rgba(255, 255, 255, 0.6);
+}
+.CreateAcc {
+  width: 281px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 6px;
+  left: 100px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.Email {
+  width: 281px;
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.email {
+  width: 355px;
+  height: 37px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.Username {
+  width: 118px;
+  position: absolute;
+  top: 250px;
+  left: 477px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.username {
+  width: 355px;
+  height: 37px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 278px;
+  left: 477px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.Pass {
+  width: 190px;
+  position: absolute;
+  top: 335px;
+  left: 478px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.password {
+  width: 356px;
+  height: 38px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 360px;
+  left: 477px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.con {
+  width: 267px;
+  position: absolute;
+  top: 410px;
+  left: 477px;
+
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.confirm {
+  width: 355px;
+  height: 37px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 435px;
+  left: 477px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.check {
+  width: 363px;
+  position: absolute;
+  top: 485px;
+  left:465px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.box {
+  width: 355px;
+  height: 37px;
+  background: rgba(42, 36, 126);
+  opacity: 1;
+  position: absolute;
+  top: 530px;
+  left: 490px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.create {
+  width: 144px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 537.5px;
+  left: 590px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.image {
+  width: 500;
+  height: 700px;
+  background: url("../images/wel2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: relative;
+  top: 10px;
+  right: 350px;
+  overflow: hidden;
+}
